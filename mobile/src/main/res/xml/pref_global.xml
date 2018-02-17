@@ -6,13 +6,13 @@
                       android:summary="@string/auto_connect_summary"
                       android:title="@string/auto_connect"/>
     <!-- Direct Boot Aware alone doesn't do anything without auto connect -->
-    <SwitchPreference android:key="directBootAware"
+    <!--SwitchPreference android:key="directBootAware"
                       android:dependency="isAutoConnect"
                       android:summary="@string/direct_boot_aware_summary"
-                      android:title="@string/direct_boot_aware"/>
-    <SwitchPreference android:key="tcp_fastopen"
+                      android:title="@string/direct_boot_aware"/-->
+    <!--SwitchPreference android:key="tcp_fastopen"
                       android:summary="@string/tcp_fastopen_summary"
-                      android:title="TCP Fast Open"/>
+                      android:title="TCP Fast Open"/-->
     <PreferenceCategory
         android:title="@string/advanced">
         <SimpleMenuPreference
@@ -34,11 +34,11 @@
             android:maxLength="5"
             app:pref_summaryHasText="%s"
             android:title="@string/port_local_dns"/>
-        <AutoSummaryEditTextPreference
+        <!--AutoSummaryEditTextPreference
             android:key="portTransproxy"
             android:inputType="number"
             android:maxLength="5"
             app:pref_summaryHasText="%s"
-            android:title="@string/port_transproxy"/>
+            android:title="@string/port_transproxy"/-->
     </PreferenceCategory>
 </PreferenceScreen>

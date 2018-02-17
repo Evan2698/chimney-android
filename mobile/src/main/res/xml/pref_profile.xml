@@ -50,10 +50,10 @@
                 android:key="remoteDns"
                 android:title="@string/remote_dns"
                 app:pref_summaryHasText="%s"/>
-        <SwitchPreference
+        <!--<SwitchPreference
                 android:key="isIpv6"
                 android:summary="@string/ipv6_summary"
-                android:title="@string/ipv6"/>
+                android:title="@string/ipv6"/-->
         <SwitchPreference
                 android:key="isProxyApps"
                 android:summary="@string/proxied_apps_summary"
