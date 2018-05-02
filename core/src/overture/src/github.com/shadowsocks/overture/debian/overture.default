@@ -1,6 +1,6 @@
-# Defaults for shadowsocks initscript
-# sourced by /etc/init.d/shadowsocks-rust
-# installed at /etc/default/shadowsocks-rust by the maintainer scripts
+# Defaults for chimney initscript
+# sourced by /etc/init.d/chimney-rust
+# installed at /etc/default/chimney-rust by the maintainer scripts
 
 #
 # This is a POSIX shell fragment

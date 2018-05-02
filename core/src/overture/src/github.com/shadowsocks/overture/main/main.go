@@ -74,7 +74,7 @@ import (
 	"syscall"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/shadowsocks/overture/core"
+	"github.com/chimney/overture/core"
 )
 
 func main() {
@@ -142,7 +142,7 @@ func main() {
 		SetNetCallback(callback)
 	}
 
-	log.Info("If you need any help, please visit the project repository: https://github.com/shadowsocks/overture")
+	log.Info("If you need any help, please visit the project repository: https://github.com/chimney/overture")
 
 	runtime.GOMAXPROCS(processorNumber)
 

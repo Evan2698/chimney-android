@@ -15,9 +15,9 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/shadowsocks/overture/core/cache"
-	"github.com/shadowsocks/overture/core/common"
-	"github.com/shadowsocks/overture/core/hosts"
+	"github.com/chimney/overture/core/cache"
+	"github.com/chimney/overture/core/common"
+	"github.com/chimney/overture/core/hosts"
 )
 
 type Config struct {
