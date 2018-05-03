@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <string name="app_name">Shadowsocks</string>
+  <string name="app_name">Chimney</string>
   <string name="quick_toggle">Toggle</string>
 
   <!-- misc -->
@@ -69,7 +69,7 @@
   <string name="service_vpn">VPN Service</string>
   <string name="service_proxy">Proxy Service</string>
   <string name="service_transproxy">Transproxy Service</string>
-  <string name="forward_success">Shadowsocks started.</string>
+  <string name="forward_success">Chimney started.</string>
   <string name="invalid_server">Invalid server name</string>
   <string name="service_failed">Failed to connect the remote server</string>
   <string name="stop">Stop</string>

@@ -6,9 +6,9 @@
 package core
 
 import (
-	"github.com/chimney/overture/core/config"
-	"github.com/chimney/overture/core/inbound"
-	"github.com/chimney/overture/core/outbound"
+	"github.com/shadowsocks/overture/core/config"
+	"github.com/shadowsocks/overture/core/inbound"
+	"github.com/shadowsocks/overture/core/outbound"
 )
 
 // Initiate the server with config file

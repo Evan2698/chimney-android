@@ -8,7 +8,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/miekg/dns"
-	"github.com/chimney/overture/core/outbound"
+	"github.com/shadowsocks/overture/core/outbound"
 )
 
 type Server struct {

@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-// Callback for Shadowsocks
+// Callback for chimney
 type DialCallback func(int, int)
 
 var Callback DialCallback

@@ -91,7 +91,7 @@ func socket(ctx context.Context, net string, family, sotype, proto int, ipv6only
 		}
 	}
 
-	// Callback for Shadowsocks
+	// Callback for chimney
 	if Callback != nil {
 		Callback(int(fd.pfd.Sysfd), sotype)
 	}

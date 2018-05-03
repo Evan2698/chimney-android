@@ -95,7 +95,7 @@ if [ ! -f "$TARGET/armeabi-v7a/libss-local-ex.so" ] || [ ! -f "$TARGET/arm64-v8a
 
  
 
-    pushd $GOPATH/src/climbwall/cmd/local
+    pushd $GOPATH/src/github.com/Evan2698/climbwall/cmd/local
     #godep restore
 
     echo "Cross compile overture for arm"
