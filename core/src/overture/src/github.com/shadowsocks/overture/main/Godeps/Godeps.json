@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/chimney/overture-android/overture",
+	"ImportPath": "github.com/shadowsocks/overture-android/overture",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v79",
 	"Deps": [

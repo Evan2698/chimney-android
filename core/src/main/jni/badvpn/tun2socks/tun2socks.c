@@ -508,6 +508,7 @@ int main (int argc, char **argv)
     memset(&addr, 0, sizeof(addr));
     addr.sun_family = AF_UNIX;
     strncpy(addr.sun_path, path, sizeof(addr.sun_path)-1);
+    BLog(BLOG_ERROR, "tun2socks--------- path: %s \n",path);
 
     if (bind(sock, (struct sockaddr*)&addr, sizeof(addr)) == -1) {
         BLog(BLOG_ERROR, "bind() failed: %s (sock = %d)\n", strerror(errno), sock);
