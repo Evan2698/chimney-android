@@ -18,12 +18,12 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
     compileSdkVersion rootProject.sdkVersion
     defaultConfig {
-        applicationId "com.github.shadowsocks"
+        applicationId "com.github.chimney.copylan"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.sdkVersion
         versionCode 210
-        versionName "100.4.6"
-        testApplicationId "com.github.shadowsocks.test"
+        versionName "200.200.200"
+        testApplicationId "com.github.chimney.copylan.test"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         resConfigs "fa", "fr", "ja", "ko", "ru", "zh-rCN", "zh-rTW"
     }
