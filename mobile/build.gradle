@@ -21,8 +21,8 @@ android {
         applicationId "com.github.chimney.copylan"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.sdkVersion
-        versionCode 210
-        versionName "200.200.200"
+        versionCode 220
+        versionName "200.200.505"
         testApplicationId "com.github.chimney.copylan.test"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         resConfigs "fa", "fr", "ja", "ko", "ru", "zh-rCN", "zh-rTW"
@@ -57,13 +57,13 @@ dependencies {
     implementation "com.android.support:design:$supportLibraryVersion"
     implementation "com.android.support:gridlayout-v7:$supportLibraryVersion"
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
-    implementation 'com.evernote:android-job:1.2.2'
+    implementation 'com.evernote:android-job:1.2.6'
     implementation "com.google.android.gms:play-services-ads:$playServicesVersion"
     implementation "com.google.android.gms:play-services-analytics:$playServicesVersion"
     implementation "com.google.firebase:firebase-config:$playServicesVersion"
     implementation 'com.j256.ormlite:ormlite-android:5.0'
     implementation 'com.mikepenz:crossfader:1.5.1'
-    implementation 'com.mikepenz:materialdrawer:6.0.2'
+    implementation 'com.mikepenz:materialdrawer:6.0.8'
     implementation 'com.squareup.okhttp3:okhttp:3.9.1'
     implementation "com.takisoft.fix:preference-v7-simplemenu:$takisoftFixVersion"
     implementation 'com.twofortyfouram:android-plugin-api-for-locale:1.0.2'

@@ -17,7 +17,8 @@ object DirectBoot {
 
     fun getDeviceProfile(): Profile? = try {
         ObjectInputStream(file.inputStream()).use { it.readObject() as Profile }
-    } catch (_: FileNotFoundException) { null }
+    } catch (_: Exception) { null }
+
 
     fun clean() {
         file.delete()

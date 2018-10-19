@@ -199,6 +199,9 @@ class ProfilesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener {
     }
 
     inner class ProfilesAdapter : RecyclerView.Adapter<ProfileViewHolder>() {
+
+
+
         internal val profiles = ProfileManager.getAllProfiles()?.toMutableList() ?: mutableListOf()
         private val updated = HashSet<Profile>()
 
@@ -207,7 +210,7 @@ class ProfilesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener {
         }
 
         override fun onBindViewHolder(holder: ProfileViewHolder, position: Int) = holder.bind(profiles[position])
-        override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ProfileViewHolder = ProfileViewHolder(
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileViewHolder = ProfileViewHolder(
                 LayoutInflater.from(parent!!.context).inflate(R.layout.layout_profile, parent, false))
         override fun getItemCount(): Int = profiles.size
         override fun getItemId(position: Int): Long = profiles[position].id.toLong()

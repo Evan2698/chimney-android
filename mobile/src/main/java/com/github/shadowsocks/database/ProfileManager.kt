@@ -69,6 +69,7 @@ object ProfileManager {
 
     fun getProfile(id: Int): Profile? = try {
         PrivateDatabase.profileDao.queryForId(id)
+        //Profile()
     } catch (ex: Exception) {
         Log.e(TAG, "getProfile", ex)
         app.track(ex)

@@ -88,13 +88,13 @@ class Profile : Serializable {
     var name: String? = ""
 
     @DatabaseField
-    var host: String = "198.199.101.152"
+    var host: String = "176.122.157.41"
 
     @DatabaseField
-    var remotePort: Int = 8388
+    var remotePort: Int = 25
 
     @DatabaseField
-    var password: String = "u1rRWTssNv0p"
+    var password: String = "Evan\$%#@!#\$@!123"
 
     @DatabaseField
     var method: String = "aes-256-cfb"

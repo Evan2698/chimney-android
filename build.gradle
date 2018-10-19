@@ -2,10 +2,10 @@
 
 buildscript {
     ext {
-        kotlinVersion = '1.2.20'
+        kotlinVersion = '1.2.51'
         minSdkVersion = 21
         sdkVersion = 27
-        buildToolsVersion = '27.0.3'
+        buildToolsVersion = '28.0.3'
         supportLibraryVersion = '27.0.2'
         takisoftFixVersion = '27.0.2.0'
         playServicesVersion = '11.8.0'
@@ -20,7 +20,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:3.2.1'
       //  classpath 'com.google.gms:google-services:3.1.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }

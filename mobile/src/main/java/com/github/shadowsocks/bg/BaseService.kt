@@ -227,6 +227,7 @@ object BaseService {
                     false
                 } else true
         fun forceLoad() {
+
             val p = app.currentProfile
                     ?: return stopRunner(true, (this as Context).getString(R.string.profile_empty))
             if (!checkProfile(p)) return
